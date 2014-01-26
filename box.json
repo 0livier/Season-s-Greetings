@@ -1,0 +1,7 @@
+{
+    "directories": ["src", "vendor"],
+    "blacklist": ["vendor/zurb/ink-basic/basic.html"],
+    "stub": true,
+    "main": "app/console",
+    "output": "greetings.phar"
+}

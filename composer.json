@@ -1,0 +1,26 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "zurb/ink-basic",
+                "version": "1.0.5",
+                "dist": {
+                    "url": "http://zurb.com/ink/downloads/templates/basic.html.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "@stable",
+        "twig/twig": "1.*",
+        "symfony/console": "2.3.*@dev",
+        "zurb/ink-basic": "1.0.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}

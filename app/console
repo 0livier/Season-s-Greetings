@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+use Greetings\GreetingsApplication;
+use Greetings\Command\GreetingsCommand;
+
+define('APP_ROOT', __DIR__);
+
+$application = new GreetingsApplication();
+$application->add(new GreetingsCommand());
+$application->run();
