@@ -9,5 +9,4 @@ use Greetings\Command\GreetingsCommand;
 define('APP_ROOT', __DIR__);
 
 $application = new GreetingsApplication();
-$application->add(new GreetingsCommand());
 $application->run();
